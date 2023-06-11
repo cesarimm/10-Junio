@@ -1,6 +1,8 @@
-export const Table = ({ data = [] }) => {
+import './table.css';
+
+export const Table = ({ data }) => {
     return (
-        <table>
+        <table className="table">
             <thead>
                 <tr>
                     <th>#</th>
